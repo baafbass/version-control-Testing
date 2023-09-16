@@ -11,7 +11,7 @@ email['from'] = 'BAAF Company'
 email['to'] = 'abdoulfaridbassirou7898@gmail.com'
 email['subject'] = 'Promotion'
 
-email.set_content(html.substitute({'name':'Farid'}),'html')
+email.set_content(html.substitute({'name':'Farido'}),'html')
 
 with smtplib.SMTP(host='smtp.gmail.com',port=587) as smtp:
 	smtp.ehlo()
